@@ -1,0 +1,6 @@
+　　在编译源码前，可以修改include/cam/fbd.h文件中决定默认屏幕尺寸的宏DEF_FB_WIDTH和DEF_FB_HEIGHT的值为所使用的屏幕尺寸（也可以修改配置文件中的相应参数），然后执行执行命令“make && make install”，即可编译并将生成的服务器程序wcamsrv安装到/nfs/rootfs/usr/bin目录中去。修改Makefile中的PREFIX变量值可改变wcamsrv的安装路径。
+　　
+    安装服务器程序时会将配置文件config安装至开发板文件系统的/root/wcamsrv目录下，配置文件中的配置参数将在后面介绍，其中也包括决定显示屏尺寸的参数。
+
+    更多信息请参考<<国嵌webcam项目指导书>>.
+

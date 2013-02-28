@@ -1,0 +1,34 @@
+#######################################################################
+#  该文件是wcamsrv的配置文                                            #
+#######################################################################
+#  参数                 说明             
+#  version              版本      
+#  srv_port             服务器端口号         
+#  cli_timeout          客户端无请求超时时间，单位是秒 
+#  cli_timeout_check    每隔多少秒检查一次超时状态
+#  max_app_event        epoll最大事件处理数
+#  camdev               摄像头设备节点名称  
+#  fb_bpp               每像素位数 16 或 24     
+#  fb_width             LCD宽度
+#  fb_height            LCD高度
+#  thread_in_pool       线程池中线程个数
+#  cam_fmt_nr           启动摄像头时，使用摄像头的第几种像素格式
+#  cam_frm_nr           启动摄像头时，使用摄像头的第几个分辨率
+#######################################################################
+#  日期：2013年2月23日                                                #
+#  作者：国嵌                                                         #
+#######################################################################
+
+version             = GQ Webcam version 2.0
+srv_port            = 19868
+cli_timeout         = 60
+cli_timeout_check   = 1
+max_app_event       = 512
+camdev              = /dev/video0
+fb_bpp              = 16
+fb_width            = 1280
+fb_height           = 1024
+thread_in_pool      = 8 
+cam_fmt_nr          = 0
+cam_frm_nr          = 0
+
