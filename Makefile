@@ -6,13 +6,13 @@ FUNCS 	=
 
 DBG 	=
 #DBG     =   -DDBG_APP
-DBG    +=   -DDBG_V4L
-DBG    +=   -DDBG_TCP
-DBG    +=   -DDBG_FBD
-DBG    +=   -DDBG_JPG
+#DBG    +=   -DDBG_V4L
+#DBG    +=   -DDBG_TCP
+#DBG    +=   -DDBG_FBD
+#DBG    +=   -DDBG_JPG
 #DBG    +=   -DDBG_WCAM
-DBG    +=   -DDBG_VID
-DBG    +=   -DDBG_CFG
+#DBG    +=   -DDBG_VID
+#DBG    +=   -DDBG_CFG
 #DBG    +=   -DDBG_TPOOL
 
 FUNC 	= 	-DS3C_FB
