@@ -16,7 +16,7 @@ DBG    +=   -DDBG_CFG
 #DBG    +=   -DDBG_TPOOL
 
 #FUNC 	= 	-DS3C_FB
-#FUNC    += 	-DS3C_JPG
+#FUNC   += 	-DS3C_JPG
 FUNC    += 	-DVID_FUNC
 
 INC 	= 	-Iinclude/
